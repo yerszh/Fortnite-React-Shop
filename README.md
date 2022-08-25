@@ -1,2 +1,1 @@
-# Fortnite-React-Shop 
-[Link](https://yerszh.github.io/Fortnite-React-Shop/)
+# [Fortnite-React-Shop](https://yerszh.github.io/Fortnite-React-Shop/)
