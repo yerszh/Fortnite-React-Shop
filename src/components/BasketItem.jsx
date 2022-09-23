@@ -12,12 +12,12 @@ function BasketItem(props) {
     return (
         <li className="collection-item ">
             {name} 
-            <i className="material-icons basket-quantity" onClick={() => decQuantity(id)}>remove</i> 
+            <i className="material-icons basket-quantity" onClick={() => decQuantity(id)}>удалить</i> 
             x{quantity} 
-            <i className="material-icons basket-quantity" onClick={() => incQuantity(id)}>add</i> 
+            <i className="material-icons basket-quantity" onClick={() => incQuantity(id)}>добавить</i> 
             = {price * quantity}
             <span className="secondary-content" onClick={() => removeFromBasket(id)}>
-                <i className="material-icons basket-delete">close</i>
+                <i className="material-icons basket-delete">закрыть</i>
             </span>
         </li>
     )

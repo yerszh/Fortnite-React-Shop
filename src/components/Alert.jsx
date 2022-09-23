@@ -12,7 +12,7 @@ function Alert(props) {
     }, [name]);
 
     return <div id="toast-container">
-        <div className="toast" style={{backgroundColor:'#78909c'}}>{name} added to basket</div>
+        <div className="toast" style={{backgroundColor:'#78909c'}}>{name} добавлено в корзину</div>
     </div>
 }
 
