@@ -15,7 +15,7 @@ function BasketList(props) {
 
     return (
       <ul class="collection basket-list ">
-        <li className="collection-item active blue-grey lighten-1">Basket</li>
+        <li className="collection-item active blue-grey lighten-1">Корзина</li>
         {
             order.length ? order.map(item => (
                 <BasketItem 
@@ -26,15 +26,15 @@ function BasketList(props) {
                     decQuantity={decQuantity}
 
                 />
-            )) : <li className="collection-item ">Empty</li>
+            )) : <li className="collection-item ">Пусто</li>
         }
         <li className="collection-item active blue-grey lighten-1">
-            Total: {totalPrice} KZT 
+        Итого: {totalPrice} KZT 
         </li>
         <li className="collection-item active blue-grey lighten-1">
-            <button className="btn btn-small white" style={{color: 'rgb(0, 0, 0)'}}>Order</button>
+            <button className="btn btn-small white" style={{color: 'rgb(0, 0, 0)'}}>Заказать</button>
         </li>
-        <i className='material-icons basket-close' onClick={handleBasketShow}>close</i>
+        <i className='material-icons basket-close' onClick={handleBasketShow}>закрыть</i>
     </ul>
     )
 }
