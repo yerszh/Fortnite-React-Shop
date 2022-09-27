@@ -23,7 +23,7 @@ function GoodsItem(props) {
                     name,
                     price,
                 })}
-                >Buy</button>
+                >Купить</button>
                 <span className="right" style={{fontSize: '1.8rem'}}>{price} KZT</span>
             </div>
         </div>
