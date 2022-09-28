@@ -61,7 +61,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background-color: #fff;
+  background-color: #ffffff;
   width: 50rem;
   max-width: 95%;
   
@@ -73,13 +73,13 @@ nav {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  color: #fff;
+  color: #ffffff;
   
 }
 
 .basket-delete {
   cursor: pointer;
-  color: #78909c;
+  color: #2600ff;
 }
 
 @keyframes show {
